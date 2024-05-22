@@ -173,6 +173,84 @@
         border: none !important;
         border-top: 3px solid #a2a3a5 !important;
       }
+      .solar-panels {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        gap: 20rem;
+        text-align: center;
+        background-size: cover;
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop);
+        color: #f9fafa;
+      }
+      .solar-panels a {
+        color: rgb(251, 247, 247);
+        font-weight: 100;
+      }
+      .cta .solar-panels h1 {
+        font-weight: 400;
+      }
+
+      .solar-roof {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        gap: 20rem;
+        text-align: center;
+        background-size: cover;
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global);
+        color: #0d0d0d;
+      }
+      .solar-roof a {
+        text-decoration: none;
+      }
+      .a-color {
+        color: #0d0d0d !important;
+      }
+      .powerwall {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        gap: 20rem;
+        text-align: center;
+        background-size: cover;
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg);
+        color: #0d0d0d;
+      }
+      .footer-f {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: #0d0d0d;
+        color: white;
+        padding: 50px;
+        font-size: 12px;
+        font-weight: 100;
+        gap: 10px;
+      }
+      .footer-f a{
+        color: white;
+      }
+      .footer-content a{
+        color: white !important;
+      }
+      .footer-content{
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        padding: 50px;
+
+      }
+      .footer-content li a{
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -258,8 +336,75 @@
           <a class="cyber-button" href="">Demo Drive</a>
         </div>
       </section>
+
+      <section class="solar-panels">
+        <div class="content">
+          <h1>Solar Panels</h1>
+          <a href="">Schedule a Virtual Consultation</a>
+        </div>
+
+        <div class="cta">
+          <a class="a-color" href="">Order Now</a>
+          <a href="">Demo Drive</a>
+        </div>
+      </section>
+
+      <section class="solar-roof">
+        <div class="content">
+          <h1>Solar ROOF</h1>
+          <a href="">Produce Clean Energy From Your Roof </a>
+        </div>
+
+        <div class="cta">
+          <a href="">Order Now</a>
+          <a href="">Demo Drive</a>
+        </div>
+      </section>
+      <section class="powerwall">
+        <div class="content">
+          <h1>Powerwall</h1>
+        </div>
+
+        <div class="cta">
+          <a href="">Order Now</a>
+          <a href="">Demo Drive</a>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="footer-f">
+        <p>
+          ¹ Excludes taxes and fees with price subject to change. Available in
+          select states and requires credit approval.
+        </p>
+        <a href="">Est. gas savings</a>is $100/month.
+        <a href="">See Details</a>
+        <p>
+          ² Price before estimated savings is $38,990, excluding taxes and fees.
+          Subject to change.
+        </p>
+        <a href="">Learn about est. gas savings.</a>
+        <p>
+          ³ Price before estimated savings is $77,990, excluding taxes and fees.
+          Subject to change.
+        </p>
+        <a href="">Learn about est. gas savings.</a>
+        <p>
+          ⁴ Price before estimated savings is $72,990, excluding taxes and fees.
+          Subject to change.
+        </p>
+        <a href="">Learn about est. gas savings.</a>
+        <ul class="footer-content">
+          <li><a href="">Tesla © 2024</a></li>
+          <li><a href="">Privacy & Legal</a></li>
+          <li><a href="">Vehicle Recalls</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">Get Updates</a></li>
+          <li><a href="">Locations</a></li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>
